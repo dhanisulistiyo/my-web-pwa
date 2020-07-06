@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./themes/App.css";
+import { Images } from "./themes";
+import "./App.css";
 
 class App extends React.Component {
   componentDidMount() {
@@ -16,7 +16,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={Images.logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
